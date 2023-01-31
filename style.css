@@ -1,0 +1,184 @@
+/* common */
+body {
+  margin: 0;
+  font-family: arial;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* header css */
+
+header {
+  background-color: white;
+  padding: 10px 50px;
+  display: flex;
+  position: fixed;
+  justify-content: space between;
+  width: 100%;
+  height: 80%
+  box-shadow: 0px 1px 1px #ccc;
+  border-bottom: 1px solid lightblue;
+}
+content {
+  margin-top: 100px;
+}
+
+header div p {
+  margin: 0;
+}
+
+header div.left {
+  display: flex;
+  align-items: center;
+}
+
+header div.left img {
+  margin-right: 40px;
+  height: 51px;
+}
+
+header div.right {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+}
+
+header div.right p {
+  color: grey;
+}
+
+header div.right a {
+  margin-left: 40px;
+  background-color: blue;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+/* main css */
+main {
+  padding: 10px 50px;
+  padding-top: 75px;
+  padding-left: 100px
+}
+
+main p {
+  display: flex;
+  align-items: center;
+}
+
+.trending {
+  margin: 40px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.trending img {
+  width: 300px;
+}
+
+main p img {
+  width: 2%;
+  height: 2%;
+}
+
+.filters button {
+  background-color: white;
+  color: #0084ff;
+  padding: 6px 14px;
+  border-radius: 40px;
+  margin: 1px;
+}
+
+.filters button.active {
+  background-color: #0084ff;
+  color: #fff;
+}
+
+.posts {
+  margin: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.post {
+  width: 31%;
+  margin: 10px;
+  border: 1px solid rgb(0, 102, 255);
+  border-radius: 5px;
+}
+
+.post img {
+  width: 100%;
+}
+
+.content {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.content p {
+  color: grey;
+}
+
+.content p span {
+  color: black;
+  
+}
+
+.content h3 {
+  text-overflow: ellipsis;
+}
+/* footer css */
+
+footer div {
+  display: flex;
+  padding: 20px 20px;
+}
+
+.footer {
+  display: inline-block;
+  height: 300px;
+  word-spacing: .3em;
+}
+
+footer {
+  background-color: #172146;
+  color: white;
+  padding: 80px 10%;
+  padding-bottom: 20px;
+  
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.footer address {
+  flex-wrap: wrap;
+}
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.footer h2 {
+  font-size: 15px;
+}
+
+
+
